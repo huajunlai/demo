@@ -1,0 +1,6 @@
+spring:
+  jpa:
+    databasePlatform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
