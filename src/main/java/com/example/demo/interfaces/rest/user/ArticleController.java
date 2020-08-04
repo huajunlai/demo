@@ -31,17 +31,7 @@ public class ArticleController {
     @PostMapping("query")
     public ResponseEntity<ArticleQueryIdRepresentation> query(
             @RequestBody final ArticleQueryIdCommand command
-
-
-
-
-
     ) throws NoResultException {
-
-
-
-
-
         ArticleQueryIdRepresentation response = articleService
                 .findArticleById(
                         command
