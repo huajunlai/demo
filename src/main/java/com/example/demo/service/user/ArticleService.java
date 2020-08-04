@@ -21,7 +21,6 @@ import javax.validation.constraints.NotNull;
  * @author Lai
  * @version 1.0.0
  *
- * requiredargsconstructor vs autowired
  **/
 @Service
 @RequiredArgsConstructor
